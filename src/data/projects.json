@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Email Kanban AI - Sistema inteligente de gestión de emails con IA que transforma tu bandeja de entrada en un tablero Kanban productivo.",
+    "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, PostgreSQL con NeonDB y Prisma",
+    "description": "es una aplicación web empresarial que revoluciona la gestión de correos electrónicos mediante inteligencia artificial. Conecta tu cuenta de Gmail, sincroniza tus emails y permite que la IA de Google Gemini los clasifique automáticamente, extraiga tareas y las organice en un tablero Kanban visual e interactivo.",
+    "features": [
+      "Autenticación Segura y Integración Gmail.",
+      "Clasificación con IA y Tablero Kanban Interactivo.",
+      "Panel de Detalles y Dashboard de Análisis.",
+      "Lista de Emails Procesados y Perfil de Usuario."
+    ],
+    "images": [
+      {
+        "img": "/assets/images/page-home.png",
+        "title": "Página Principal"
+      },
+      {
+        "img": "/assets/images/page-catalogo.png",
+        "title": "Catálogo"
+      },
+      {
+        "img": "/assets/images/page-car.png",
+        "title": "Carrito"
+      },
+      {
+        "img": "/assets/images/page-checkout.png",
+        "title": "Checkout"
+      },
+      {
+        "img": "/assets/images/page-confirmation.png",
+        "title": "Confirmación"
+      },
+      {
+        "img": "/assets/images/page-order.png",
+        "title": "Órdenes"
+      }
+    ]
+  },
+  {
+    "title": "Chatia NanoBanana - Juego de Supervivencia Zombie",
+    "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, PostgreSQL con NeonDB y Prisma",
+    "description": "Un juego de aventura conversacional de supervivencia zombie con estilo pixel art, desarrollado con Next.js y potenciado por IA generativa. Los jugadores toman decisiones estratégicas para sobrevivir en un mundo post-apocalíptico, enfrentándose a desafíos y gestionando recursos limitados. La integración de IA permite narrativas dinámicas y personalizadas, ofreciendo una experiencia única en cada partida.",
+    "features": [
+      "Narrativa Interactiva: Historia generada dinámicamente basada en las decisiones del jugador.",
+      "Imágenes Pixel Art: Generación automática de imágenes en estilo retro 16-bit.",
+      "IA Avanzada: Utiliza Google Gemini para generar contenido y imágenes."
+    ],
+    "images": [
+      {
+        "img": "/assets/images/page-home.png",
+        "title": "Página Principal"
+      },
+      {
+        "img": "/assets/images/page-catalogo.png",
+        "title": "Catálogo"
+      },
+      {
+        "img": "/assets/images/page-car.png",
+        "title": "Carrito"
+      },
+      {
+        "img": "/assets/images/page-checkout.png",
+        "title": "Checkout"
+      },
+      {
+        "img": "/assets/images/page-confirmation.png",
+        "title": "Confirmación"
+      },
+      {
+        "img": "/assets/images/page-order.png",
+        "title": "Órdenes"
+      }
+    ]
+  },
+  {
+    "title": "Min E-Commerce",
+    "technologies": "React, TypeScript, Next.js, Tailwind CSS, Zustand, Zod y React Hook Form",
+    "description": "Plataforma de e-commerce moderna construida con Next.js 14 y TypeScript, que demuestra dominio en arquitecturas escalables y desarrollo full-stack. Implementa Server y Client Components de React para optimización de rendimiento, gestión de estado global avanzada, y un diseño UI/UX minimalista centrado en la conversión. Incluye sistema completo de carrito, checkout, gestión de pedidos y tema claro/oscuro, destacando mi capacidad para crear aplicaciones web profesionales con las últimas tecnologías del ecosistema React.",
+    "features": [
+      "Catálogo de Productos y Carrito de Compras",
+      "Proceso de Checkout y Gestión de Pedidos.",
+      "Tema Claro/Oscuro y Notificaciones Toast.",
+      "Diseño Responsivo."
+    ],
+    "images": [
+      {
+        "img": "/assets/images/page-home.png",
+        "title": "Página Principal"
+      },
+      {
+        "img": "/assets/images/page-catalogo.png",
+        "title": "Catálogo"
+      },
+      {
+        "img": "/assets/images/page-car.png",
+        "title": "Carrito"
+      },
+      {
+        "img": "/assets/images/page-checkout.png",
+        "title": "Checkout"
+      },
+      {
+        "img": "/assets/images/page-confirmation.png",
+        "title": "Confirmación"
+      },
+      {
+        "img": "/assets/images/page-order.png",
+        "title": "Órdenes"
+      }
+    ]
+  }
+]

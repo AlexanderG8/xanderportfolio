@@ -8,6 +8,11 @@ import ContactMe from '@/components/contact-me';
 import AboutMe from '@/components/about-me';
 import { My_Stack } from '@/utils/icon-stack';
 import PersonalData from '@/components/personal-data';
+import { ProjectData } from '@/types';
+import projectsData from '@/data/projects.json';
+
+// Datos de proyectos importados desde JSON
+const projects: ProjectData[] = projectsData;
 
 export default function IndexPage() {
   return (
@@ -72,11 +77,9 @@ export default function IndexPage() {
             <AboutMe
               content_body={
                 <p className="text-medium text-foreground/80">
-
                   Hola soy <strong className="font-bold"> Alexander Gómez</strong>, desarrollador full-stack con más de 3 años de experiencia construyendo aplicaciones web robustas y escalables. Mi trayectoria comenzó en el ecosistema de <strong className="text-purple-400">.NET</strong>, donde he desarrollado soluciones completas utilizando <strong className="text-purple-400">ASP.NET Core MVC, Razor Pages, APIs RESTful y SQL Server</strong>, creando sistemas que han optimizado procesos empresariales y mejorado significativamente la experiencia de los usuarios.
-                  Actualmente, estoy expandiendo mis habilidades hacia el ecosistema moderno de <strong className="text-yellow-400">JavaScript</strong>, trabajando con tecnologías como <strong className="text-blue-400">TypeScript</strong>, <strong className="text-cyan-400">React</strong>, <strong className='text-red-400'>Next JS</strong>, <strong className='text-green-400'>Node JS</strong>, <strong className='text-orange-500'>Express JS</strong>, <strong className='text-pink-500'>Prisma</strong> y <strong className='text-blue-600'>PostgreSQL</strong> con <strong className='text-green-500'>NeonDB</strong>. Esta combinación me permite ofrecer soluciones versátiles que se adaptan a las necesidades específicas de cada proyecto.
-                  Lo que me apasiona es transformar ideas en aplicaciones funcionales que realmente marquen la diferencia. No solo escribo código: creo herramientas que simplifican tareas complejas, automatizan procesos repetitivos y ofrecen experiencias de usuario intuitivas y fluidas.
-                  Mi enfoque está en la innovación y la eficiencia, siempre buscando ofrecer resultados que generen un impacto real.
+                  Actualmente, estoy expandiendo mis habilidades hacia el ecosistema moderno de <strong className="text-yellow-400">JavaScript</strong>, trabajando con tecnologías como <strong className="text-blue-400">TypeScript</strong>, <strong className="text-cyan-400">React</strong>, <strong className="text-red-400">Next JS</strong>, <strong className="text-green-400">Node JS</strong>, <strong className="text-orange-500">Express JS</strong>, <strong className="text-pink-500">Prisma</strong> y <strong className="text-blue-600">PostgreSQL</strong> con <strong className="text-green-500">NeonDB</strong>. Esta combinación me permite ofrecer soluciones versátiles que se adaptan a las necesidades específicas de cada proyecto.
+                  Lo que me apasiona es transformar ideas en aplicaciones funcionales que realmente marquen la diferencia. No solo escribo código: creo herramientas que simplifican tareas complejas, automatizan procesos repetitivos y ofrecen experiencias de usuario intuitivas y fluidas. Mi enfoque está en la innovación y la eficiencia, siempre buscando ofrecer resultados que generen un impacto real.
                 </p>
               }
             />
@@ -91,20 +94,11 @@ export default function IndexPage() {
               </h2>
             </div>
           </div>
-          <div className="container mt-4">
-            <CardProjects
-              content_body={
-                <p className="text-medium text-foreground/80">
-                  Junto a mi equipo, implementamos un sistema completo para la administración y soporte de facturas electrónicas,
-                  optimizando significativamente la eficiencia en la gestión de documentos fiscales y el soporte al cliente. La aplicación
-                  incluye una interfaz intuitiva hecha con <strong className="text-cyan-400">React.js</strong>, <strong>Next.js</strong> y{' '}
-                  <strong className="text-blue-400">TypeScript </strong>
-                  para el Frontend, mientras que el backend fue implementado en <strong>C#</strong> utilizando arquitectura por
-                  microservicios y desplegado en Azure, asegurando escalabilidad, alta disponibilidad y seguridad en la nube.
-                </p>
-              }
-            />
-          </div>
+          {projects.map((project, index) => (
+            <div key={index} className="container mt-4">
+              <CardProjects project={project} />
+            </div>
+          ))}
         </div>
         <div className="container mt-12" title="habilidades">
           <div className="flex">
