@@ -36,7 +36,7 @@ const PersonalData = () => {
               className={title({ color: 'violet', fontStyle: 'italic', weight: 'bold', class: 'pr-1' })}
               cursor={false}
               repeat={Infinity}
-              sequence={['Software Developer', 5000]}
+              sequence={['Developer Full Stack', 5000]}
               wrapper="span"
             />
           </span>

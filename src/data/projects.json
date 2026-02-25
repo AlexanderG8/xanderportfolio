@@ -2,7 +2,7 @@
   {
     "title": "Email Kanban AI - Sistema inteligente de gestión de emails con IA que transforma tu bandeja de entrada en un tablero Kanban productivo.",
     "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, PostgreSQL con NeonDB y Prisma",
-    "description": "es una aplicación web empresarial que revoluciona la gestión de correos electrónicos mediante inteligencia artificial. Conecta tu cuenta de Gmail, sincroniza tus emails y permite que la IA de Google Gemini los clasifique automáticamente, extraiga tareas y las organice en un tablero Kanban visual e interactivo.",
+    "description": "Es una aplicación web empresarial que revoluciona la gestión de correos electrónicos mediante inteligencia artificial. Conecta tu cuenta de Gmail, sincroniza tus emails y permite que la IA de Google Gemini los clasifique automáticamente, extraiga tareas y las organice en un tablero Kanban visual e interactivo.",
     "features": [
       "Autenticación Segura y Integración Gmail.",
       "Clasificación con IA y Tablero Kanban Interactivo.",
@@ -11,28 +11,36 @@
     ],
     "images": [
       {
-        "img": "/assets/images/page-home.png",
-        "title": "Página Principal"
+        "img": "/assets/images/emailkanbanIA/Kanban.png",
+        "title": "Kanban"
       },
       {
-        "img": "/assets/images/page-catalogo.png",
-        "title": "Catálogo"
+        "img": "/assets/images/emailkanbanIA/Dashboard.png",
+        "title": "Dashboard"
       },
       {
-        "img": "/assets/images/page-car.png",
-        "title": "Carrito"
+        "img": "/assets/images/emailkanbanIA/EmailsProcesados.png",
+        "title": "Emials Procesados"
       },
       {
-        "img": "/assets/images/page-checkout.png",
-        "title": "Checkout"
+        "img": "/assets/images/emailkanbanIA/Perfil.png",
+        "title": "Perfil"
       },
       {
-        "img": "/assets/images/page-confirmation.png",
-        "title": "Confirmación"
+        "img": "/assets/images/emailkanbanIA/Sincronizacion1.png",
+        "title": "Sincronización 1"
       },
       {
-        "img": "/assets/images/page-order.png",
-        "title": "Órdenes"
+        "img": "/assets/images/emailkanbanIA/Sincronizacion2.png",
+        "title": "Sincronización 2"
+      },
+      {
+        "img": "/assets/images/emailkanbanIA/Sincronizacion3.png",
+        "title": "Sincronización 3"
+      },
+      {
+        "img": "/assets/images/emailkanbanIA/Login.png",
+        "title": "Login"
       }
     ]
   },
@@ -47,28 +55,12 @@
     ],
     "images": [
       {
-        "img": "/assets/images/page-home.png",
-        "title": "Página Principal"
+        "img": "/assets/images/nanobanana/Chat.png",
+        "title": "Chatia NanoBanana"
       },
       {
-        "img": "/assets/images/page-catalogo.png",
-        "title": "Catálogo"
-      },
-      {
-        "img": "/assets/images/page-car.png",
-        "title": "Carrito"
-      },
-      {
-        "img": "/assets/images/page-checkout.png",
-        "title": "Checkout"
-      },
-      {
-        "img": "/assets/images/page-confirmation.png",
-        "title": "Confirmación"
-      },
-      {
-        "img": "/assets/images/page-order.png",
-        "title": "Órdenes"
+        "img": "/assets/images/nanobanana/Login.png",
+        "title": "Login"
       }
     ]
   },
@@ -84,28 +76,36 @@
     ],
     "images": [
       {
-        "img": "/assets/images/page-home.png",
+        "img": "/assets/images/mincommerce/Home.png",
         "title": "Página Principal"
       },
       {
-        "img": "/assets/images/page-catalogo.png",
+        "img": "/assets/images/mincommerce/Login.png",
+        "title": "Login"
+      },
+      {
+        "img": "/assets/images/mincommerce/Perfil.png",
+        "title": "Perfil"
+      },
+      {
+        "img": "/assets/images/mincommerce/PanelAdministrador.png",
+        "title": "Panel de Administrador"
+      },
+      {
+        "img": "/assets/images/mincommerce/Catalogo.png",
         "title": "Catálogo"
       },
       {
-        "img": "/assets/images/page-car.png",
+        "img": "/assets/images/mincommerce/Carrito.png",
         "title": "Carrito"
       },
       {
-        "img": "/assets/images/page-checkout.png",
+        "img": "/assets/images/mincommerce/Checkout.png",
         "title": "Checkout"
       },
       {
-        "img": "/assets/images/page-confirmation.png",
-        "title": "Confirmación"
-      },
-      {
-        "img": "/assets/images/page-order.png",
-        "title": "Órdenes"
+        "img": "/assets/images/mincommerce/ConfirmacionPedido.png",
+        "title": "CConfirmación de Pedido"
       }
     ]
   }
