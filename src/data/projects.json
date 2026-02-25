@@ -9,6 +9,7 @@
       "Panel de Detalles y Dashboard de Análisis.",
       "Lista de Emails Procesados y Perfil de Usuario."
     ],
+    "githubUrl": "https://github.com/AlexanderG8/email-kanban-ai.git",
     "images": [
       {
         "img": "/assets/images/emailkanbanIA/Kanban.png",
@@ -53,6 +54,7 @@
       "Imágenes Pixel Art: Generación automática de imágenes en estilo retro 16-bit.",
       "IA Avanzada: Utiliza Google Gemini para generar contenido y imágenes."
     ],
+    "githubUrl": "https://github.com/AlexanderG8/chatia-nanobanana.git",
     "images": [
       {
         "img": "/assets/images/nanobanana/Chat.png",
@@ -74,6 +76,7 @@
       "Tema Claro/Oscuro y Notificaciones Toast.",
       "Diseño Responsivo."
     ],
+    "githubUrl": "https://github.com/AlexanderG8/min-commerce-nextjs.git",
     "images": [
       {
         "img": "/assets/images/mincommerce/Home.png",

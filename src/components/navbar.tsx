@@ -42,7 +42,7 @@ export const Navbar = () => {
             <GithubIcon className="text-default-500" />
           </Link>
           <ThemeSwitch />
-          <Link isExternal download="CV_AlexanderGomez.pdf" href={CVtxt} title="Descargar CV">
+          <Link isExternal href="https://1drv.ms/b/c/092da4f7880d29cb/IQBZz7G6IgEhRo4ZcCOVOiUvAdTSfsnhSF_IJQzYr3q8Qxk?e=qIIIl9" title="Ver CV">
             <SimCardDownload className="text-default-500" />
           </Link>
         </NavbarItem>
@@ -53,7 +53,7 @@ export const Navbar = () => {
           <GithubIcon className="text-default-500" />
         </Link>
         <ThemeSwitch />
-        <Link isExternal download="CV_AlexanderGomez.pdf" href={CVtxt} title="Descargar CV">
+        <Link isExternal href="https://1drv.ms/b/c/092da4f7880d29cb/IQBZz7G6IgEhRo4ZcCOVOiUvAdTSfsnhSF_IJQzYr3q8Qxk?e=qIIIl9" title="Ver CV">
           <SimCardDownload className="text-default-500" />
         </Link>
       </NavbarContent>
