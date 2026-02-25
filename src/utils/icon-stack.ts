@@ -16,10 +16,11 @@ import {
   VisualStudioIcon,
   VisualStudioCodeIcon,
   MicrosoftAzureIcon,
-  AngularIcon,
-  NextUIIcon,
   NeonConsoleTechIcon,
-  AIBrainIcon
+  AIBrainIcon,
+  BootstrapIcon,
+  ClaudeIcon,
+  PythonIcon
 } from '@/components/icons';
 
 export const My_Stack = {
@@ -30,7 +31,7 @@ export const My_Stack = {
     { name: 'TypeScript', icon: TypeScriptIcon },
     { name: 'React.js', icon: ReactIcon },
     { name: 'Tailwind', icon: TailwindCSSIcon },
-    { name: 'NextUI', icon: NextUIIcon }
+    { name: 'Bootstrap', icon: BootstrapIcon }
   ],
   backend: [
     { name: 'Next.js', icon: NextjsIcon },
@@ -45,11 +46,12 @@ export const My_Stack = {
     { name: 'GitHub', icon: GithubIcon },
     { name: 'NPM', icon: NPMIcon },
     { name: 'Visual Studio Code', icon: VisualStudioCodeIcon },
-    { name: 'Visual Studio', icon: VisualStudioIcon }
+    { name: 'Visual Studio', icon: VisualStudioIcon },
+    { name: 'Claude', icon: ClaudeIcon }
   ],
   learning: [
+    { name: 'Python', icon: PythonIcon },
     { name: 'IA Fundaments', icon: AIBrainIcon },
-    { name: 'Angular', icon: AngularIcon },
     { name: 'Microsoft Azure', icon: MicrosoftAzureIcon },
   ]
 };
