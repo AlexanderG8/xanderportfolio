@@ -15,4 +15,5 @@ export interface ProjectData {
   description: string;
   features: string[];
   images: ProjectImage[];
+  githubUrl?: string;
 }
