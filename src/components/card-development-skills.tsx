@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 const CardDevelopmentSkills = ({ title, skillStack }: { title: string; skillStack: any }) => {
   return (
     <>
-      <Card className="bg-background/60 dark:bg-default-100/50 size-96 shadow-md">
+      <Card className="bg-background/60 dark:bg-default-100/50 size-96" shadow="sm">
         <CardHeader className="flex-col items-center justify-center">
           <h4 className="font-bold text-large">{title}</h4>
         </CardHeader>

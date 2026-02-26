@@ -153,7 +153,6 @@ const Particles: React.FC<ParticlesProps> = ({
     const randoms = new Float32Array(count * 4);
     const colors = new Float32Array(count * 3);
     const palette = particleColors && particleColors.length > 0 ? particleColors : defaultColors;
-
     for (let i = 0; i < count; i++) {
       let x: number, y: number, z: number, len: number;
       do {
@@ -237,6 +236,7 @@ const Particles: React.FC<ParticlesProps> = ({
     particleCount,
     particleSpread,
     speed,
+    particleColors,
     moveParticlesOnHover,
     particleHoverFactor,
     alphaParticles,
