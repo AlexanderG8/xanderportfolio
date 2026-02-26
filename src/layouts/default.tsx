@@ -1,13 +1,9 @@
-import { useMemo } from 'react';
-
 import { Link } from '@nextui-org/link';
 
 import { Navbar } from '@/components/navbar';
-import { useTheme } from '@/hooks/use-theme';
 import Particles from '@/UI/Particles';
 
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
-  const { isDark } = useTheme();
   const particleColors = ['#FF1CCE', '#FF1CCE'];
 
   return (

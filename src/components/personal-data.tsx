@@ -3,7 +3,7 @@ import { button as buttonStyles } from '@nextui-org/theme';
 import { TypeAnimation } from 'react-type-animation';
 
 import { siteConfig } from '@/config/site';
-import { subtitle, title } from '@/components/primitives';
+import { title } from '@/components/primitives';
 import { GithubIcon, LinkedInIcon } from '@/components/icons';
 
 const PersonalData = () => {
