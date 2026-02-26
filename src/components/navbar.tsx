@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { Link } from '@nextui-org/link';
 import { Navbar as NextUINavbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/navbar';
 import { Code, SimCardDownload } from '@mui/icons-material';
