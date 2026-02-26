@@ -1,15 +1,21 @@
+import { useMemo } from 'react';
+
 import { Link } from '@nextui-org/link';
 
 import { Navbar } from '@/components/navbar';
+import { useTheme } from '@/hooks/use-theme';
 import Particles from '@/UI/Particles';
 
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
+  const { isDark } = useTheme();
+  const particleColors = ['#FF1CCE', '#FF1CCE'];
+
   return (
     <div className="relative flex flex-col h-screen">
       {/* Background de partículas */}
       <div className="fixed inset-0 z-0">
         <Particles
-          particleColors={['#ffffff', '#ffffff']}
+          particleColors={particleColors}
           particleCount={200}
           particleSpread={10}
           speed={0.1}
