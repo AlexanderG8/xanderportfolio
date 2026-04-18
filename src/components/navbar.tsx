@@ -24,7 +24,7 @@ export const Navbar = () => {
             <GithubIcon className="text-default-500" />
           </Link>
           <ThemeSwitch />
-          <Link isExternal href="https://1drv.ms/b/c/092da4f7880d29cb/IQBZz7G6IgEhRo4ZcCOVOiUvAdTSfsnhSF_IJQzYr3q8Qxk?e=qIIIl9" title="Ver CV">
+          <Link isExternal href="https://1drv.ms/b/c/092da4f7880d29cb/IQCp0wNF6RqSTriAdkGE0pwEAUregoXEBezj5MwSZqMrUG0?e=34TSGp" title="Ver CV">
             <SimCardDownload className="text-default-500" />
           </Link>
         </NavbarItem>
@@ -35,7 +35,7 @@ export const Navbar = () => {
           <GithubIcon className="text-default-500" />
         </Link>
         <ThemeSwitch />
-        <Link isExternal href="https://1drv.ms/b/c/092da4f7880d29cb/IQBZz7G6IgEhRo4ZcCOVOiUvAdTSfsnhSF_IJQzYr3q8Qxk?e=qIIIl9" title="Ver CV">
+        <Link isExternal href="https://1drv.ms/b/c/092da4f7880d29cb/IQCp0wNF6RqSTriAdkGE0pwEAUregoXEBezj5MwSZqMrUG0?e=34TSGp" title="Ver CV">
           <SimCardDownload className="text-default-500" />
         </Link>
       </NavbarContent>

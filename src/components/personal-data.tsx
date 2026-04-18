@@ -29,7 +29,7 @@ const PersonalData = () => {
         </div>
         <div>
           <span className={title()}>Hola,&nbsp;</span>
-          <span className={title()}>soy Alexander Gomez</span>
+          <span className={title()}>soy Xander</span>
           <br />
           <span>
             <TypeAnimation
@@ -45,11 +45,11 @@ const PersonalData = () => {
       <div className="flex flex-wrap gap-3 mb-2 mr-5 ml-5">
         <Link isExternal className={buttonStyles({ variant: 'bordered', radius: 'full' })} href={siteConfig.links.linkedin}>
           <LinkedInIcon />
-          Linkedin / Alexander Gomez
+          Linkedin
         </Link>
         <Link isExternal className={buttonStyles({ variant: 'bordered', radius: 'full' })} href={siteConfig.links.github}>
           <GithubIcon size={20} />
-          GitHub / AlexanderG8
+          GitHub
         </Link>
       </div>
     </>

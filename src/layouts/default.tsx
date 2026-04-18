@@ -29,7 +29,7 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
         <footer className="w-full flex items-center justify-center py-3">
           <Link isExternal className="flex items-center gap-1 text-current" href="/">
             <span className="text-default-600">2026</span>
-            <p className="text-primary">Alexander Gómez</p>
+            <p className="text-primary">Xander</p>
           </Link>
         </footer>
       </div>

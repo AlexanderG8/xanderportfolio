@@ -55,7 +55,7 @@ const CardProjects = ({ project }: { project: ProjectData }) => {
                 <div className="flex flex-col gap-0">
                   <h3 className="font-semibold text-foreground/100">{project.title}</h3>
                   <h1 className="text-small text-foreground/80">
-                    <strong>Tecnologías:</strong> {project.technologies}
+                    {project.description}
                   </h1>
                 </div>
                 {project.githubUrl && (
@@ -70,7 +70,8 @@ const CardProjects = ({ project }: { project: ProjectData }) => {
               <div className="flex flex-col col-span-6 md:col-span-8 m-5">
                 <div className="flex justify-between items-start">
                   <div className="flex flex-col gap-0">
-                    <p className="text-medium text-foreground/80">{project.description}</p>
+                    <h1 className="text-medium font-medium mt-2">Tecnologías:</h1>
+                    <p className="text-medium text-foreground/80">{project.technologies}</p>
                   </div>
                 </div>
                 <h1 className="text-medium font-medium mt-2">Caracteristicas:</h1>

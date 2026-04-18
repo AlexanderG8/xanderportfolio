@@ -12,6 +12,7 @@ export interface ProjectImage {
 export interface ProjectData {
   title: string;
   technologies: string;
+  architecture: string;
   description: string;
   features: string[];
   images: ProjectImage[];

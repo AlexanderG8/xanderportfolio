@@ -1,8 +1,9 @@
 [
   {
-    "title": "Email Kanban AI - Sistema inteligente de gestión de emails con IA que transforma tu bandeja de entrada en un tablero Kanban productivo.",
-    "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, PostgreSQL con NeonDB y Prisma",
-    "description": "Es una aplicación web empresarial que revoluciona la gestión de correos electrónicos mediante inteligencia artificial. Conecta tu cuenta de Gmail, sincroniza tus emails y permite que la IA de Google Gemini los clasifique automáticamente, extraiga tareas y las organice en un tablero Kanban visual e interactivo.",
+    "title": "Email Kanban AI ",
+    "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, Vercel AI SDK, PostgreSQL con NeonDB y Prisma",
+    "architecture": "Monolítico modular",
+    "description": "Sistema inteligente de gestión de emails con IA que transforma tu bandeja de entrada en un tablero Kanban productivo.",
     "features": [
       "Autenticación Segura y Integración Gmail.",
       "Clasificación con IA y Tablero Kanban Interactivo.",
@@ -46,13 +47,14 @@
     ]
   },
   {
-    "title": "Chatia NanoBanana - Juego de Supervivencia Zombie",
-    "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, PostgreSQL con NeonDB y Prisma",
-    "description": "Un juego de aventura conversacional de supervivencia zombie con estilo pixel art, desarrollado con Next.js y potenciado por IA generativa. Los jugadores toman decisiones estratégicas para sobrevivir en un mundo post-apocalíptico, enfrentándose a desafíos y gestionando recursos limitados. La integración de IA permite narrativas dinámicas y personalizadas, ofreciendo una experiencia única en cada partida.",
+    "title": "Chatia NanoBanana",
+    "technologies": "React, Typescript, Tailwind CSS, Radix UI, Next.js, Google Gemini API, Vercel AI SDK, PostgreSQL con NeonDB y Prisma",
+    "architecture": "Monolítico",
+    "description": "Juego de supervivencia zombie con narrativa interactiva e imágenes generadas dinámicamente.",
     "features": [
-      "Narrativa Interactiva: Historia generada dinámicamente basada en las decisiones del jugador.",
-      "Imágenes Pixel Art: Generación automática de imágenes en estilo retro 16-bit.",
-      "IA Avanzada: Utiliza Google Gemini para generar contenido y imágenes."
+      "Narrativa Interactiva",
+      "Imágenes Pixel Art",
+      "IA Gemini API"
     ],
     "githubUrl": "https://github.com/AlexanderG8/chatia-nanobanana.git",
     "images": [
@@ -69,7 +71,8 @@
   {
     "title": "Min E-Commerce",
     "technologies": "React, TypeScript, Next.js, Tailwind CSS, Zustand, Zod y React Hook Form",
-    "description": "Plataforma de e-commerce moderna construida con Next.js 14 y TypeScript, que demuestra dominio en arquitecturas escalables y desarrollo full-stack. Implementa Server y Client Components de React para optimización de rendimiento, gestión de estado global avanzada, y un diseño UI/UX minimalista centrado en la conversión. Incluye sistema completo de carrito, checkout, gestión de pedidos y tema claro/oscuro, destacando mi capacidad para crear aplicaciones web profesionales con las últimas tecnologías del ecosistema React.",
+    "architecture": "Arquitectura en capas",
+    "description": "Plataforma de comercio electrónico con gestión de productos, carrito de compras y proceso de checkout.",
     "features": [
       "Catálogo de Productos y Carrito de Compras",
       "Proceso de Checkout y Gestión de Pedidos.",
